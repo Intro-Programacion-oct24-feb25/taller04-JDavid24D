@@ -38,6 +38,14 @@ public class Problema02 {
         nSegundoHijo = entrada.nextLine();
         System.out.println("Ingrese el monto que gasto");
         segundoHijo = entrada.nextDouble();
+        System.out.println("Ingrese el nombre del tercer hijo");
+        entrada.nextLine();
+        nTercerHijo = entrada.nextLine();
+        System.out.println("Ingrese el monto que gasto");
+        tercerHijo = entrada.nextDouble();
+        
+        valorTotal = (primerHijo + segundoHijo + tercerHijo);
+        System.out.println("El gasto total de los 3 hijos es:" + valorTotal);
     }
     
 }
